@@ -8,7 +8,7 @@ function apl_supervised_nmf(audiofile, out_folder)
 %   supervised-NMF fashion for which a matrix W_target is given. Other components
 %   are learnt in an unsupervised fashion, specifying the number of free
 %   additional basis in W.
-%   The matrix W_target can be estimated either using the function apl_estimate_nmf(), 
+%   The matrix W_target can be estimated either using the function apl_unsupervised_nmf(),
 %   storing its result W as a .mat file; or by loading an existing instrument pitch 
 %   model stored in HDF5 format using the function apl_load_model().
 %
